@@ -41,10 +41,10 @@ export default function DepositForm({
             .div(toBN(basisPoint))
         )
     : toBN('1');
-  const availableMax =
-    availableByAccountDeposit > availableByTotalDeposit
-      ? availableByTotalDeposit
-      : availableByAccountDeposit;
+  
+  const availableMax = availableByAccountDeposit.gte(availableByTotalDeposit)
+    ? availableByTotalDeposit
+    : availableByAccountDeposit;
 
   useEffect(() => {
     if (displayVal !== '' && !isNaN(displayVal)) setVal(toWei(displayVal));
