@@ -15,7 +15,7 @@ export default function Header({ address, onConnect }) {
         pr={{ base: '20px', lg: '0px' }}>
         <Link
           display="inline-block"
-          href="https://swapfolio.org/"
+          href="https://swapfol.io/"
           m="0px"
           ml="-3px">
           <Image
