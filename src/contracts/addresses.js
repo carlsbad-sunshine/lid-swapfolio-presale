@@ -2,7 +2,7 @@ const addresses = {
   presale: '',
   redeemer: '',
   timer: '',
-  token: '0x7fe380fed13742f14b5649ec73f79c2e404f62b7'
+  token: '0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A'
 };
 
 export default addresses;
